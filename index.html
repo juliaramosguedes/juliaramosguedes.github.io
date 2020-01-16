@@ -9,26 +9,28 @@
     <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <link rel="stylesheet" href="index.css">
   <link rel="icon" href="https://avatars3.githubusercontent.com/u/50717855?v=4" type="image/png"></head>
-
+  
   <body>
     <div id="loading">
       <div id="spinner"></div>
     </div>
     <div id="profile">
       <div id="profile_img" style="background: url(https://avatars3.githubusercontent.com/u/50717855?v=4) center;"></div>
-      <div id="username"><span style="display:block;">Julia Ramos Guedes</span><a href="https://github.com/juliaramosguedes">@juliaramosguedes</a></div>
+      <div id="username"><span style="display:block;">Julia Ramos Guedes</span></div>
       <div id="userbio" style="display: block;">Full Stack Developer</div>
       <div id="about">
-                <span style="display:block;"><i class="fas fa-users"></i> &nbsp; @ironhack</span>
-                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
-                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://www.linkedin.com/in/julia-ramos-guedes/">https://www.linkedin.com/in/julia-ramos-guedes/</a></span>
+        
+                <span style="display:block;"><i class="fas fa-graduation-cap"></i> &nbsp; <a href="https://www.ironhack.com/">Ironhack</a></span>
+                <span style="display:none;"><i class="fab fa-github-alt"></i> &nbsp; <a href="https://github.com/juliaramosguedes">@juliaramosguedes</a></span>
+                <span style="display:block;"><i class="fab fa-linkedin-in"></i> &nbsp; <a href="https://www.linkedin.com/in/julia-ramos-guedes/">/julia-ramos-guedes</a></span>
+                <span style="display:block;"><i class="fab fa-medium-m"></i> &nbsp; <a href="https://www.medium.com/@juliaramosguedes/" target="_blank" class="socials">@juliaramosguedes</a></span>
                 <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; São Paulo, Brazil</span>
                 <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
                 <div class="socials">
-                <span style="display:none !important;"><a href="https://www.twitter.com/undefined" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
-                <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
-                <span style="display:block;"><a href="https://www.linkedin.com/in/julia-ramos-guedes/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
-                <span style="display:block;"><a href="https://www.medium.com/@juliaramosguedes/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+                  <span style="display:none !important;"><a href="https://www.twitter.com/undefined" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                  <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
+                  <span style="display:none !important;"><a href="https://www.linkedin.com/in/julia-ramos-guedes/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                  <span style="display:none !important;"><a href="https://www.medium.com/@juliaramosguedes/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
                 </div>
                 </div>
     </div>
@@ -682,7 +684,7 @@
         return (document.getElementById("blog_section").style.display = "none");
       });
     </script>
-
+  
     <script>
       const magicProjectsGrid = new MagicGrid({
         container: "#work_section",
@@ -693,7 +695,7 @@
         maxColumns: 2,
         useTransform: true
       });
-
+  
       const magicForksGrid = new MagicGrid({
         container: "#forks_section",
         animate: false,
@@ -703,12 +705,12 @@
         maxColumns: 2,
         useTransform: true
       });
-
+  
       $("document").ready(() => {
         magicProjectsGrid.listen();
         magicForksGrid.listen();
       });
     </script>
   
-
-</body></html>
+  
+  </body></html>
